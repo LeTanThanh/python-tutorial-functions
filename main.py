@@ -1,2 +1,8 @@
 if __name__ == "__main__":
-  print("Python Functions")
+  # Defining a Python function
+
+  def greet():
+    """Display a greeting a users"""
+    print("Hi")
+
+  greet()
