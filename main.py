@@ -9,10 +9,22 @@ if __name__ == "__main__":
 
   # Passing information to Python functions
 
+  # def greet(name):
+  #   print(f"Hi {name}")
+
+  # greet("John")
+
+  # first_name = "Jane"
+  # greet(first_name)
+
+  # Returning a value
+
+  """
+  return value
+  """
+
   def greet(name):
-    print(f"Hi {name}")
+    return f"Hi {name}"
 
-  greet("John")
-
-  first_name = "Jane"
-  greet(first_name)
+  greeting = greet("John")
+  print(greeting)
