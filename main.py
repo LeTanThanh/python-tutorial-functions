@@ -28,3 +28,11 @@ if __name__ == "__main__":
 
   greeting = greet("John")
   print(greeting)
+
+  # Python functions with multiple parameters
+
+  def sum(a, b):
+    return a + b
+
+  total = sum(10, 20)
+  print(total)
